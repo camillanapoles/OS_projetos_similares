@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>OscarAPI Login Example</title>
+        <meta charset="utf-8">
+
+        <script type="text/javascript">
+            {% include "js-login-example.js" %}
+        </script>
+
+        <style type="text/css">
+          pre.output {
+              display:  block;
+              border:  solid 1px #eeeeee;
+              height:  100%;
+          }
+        </style>
+   </head>
+
+   <body>
+       <p>username: <input type="text" id="username"></p>
+       <p>password: <input type="password" id="password"></p>
+
+       <p>
+           <button id="login">Login</button>
+           <button id="logout">Logout</button>
+           <button id="fetch-basket">Fetch Basket</button>
+       </p>
+
+       <pre class="output" id="output">Please login by filling out the form above, or fetch the basket with the "Fetch Basket" button.</pre>
+   </body>
+
+</html>

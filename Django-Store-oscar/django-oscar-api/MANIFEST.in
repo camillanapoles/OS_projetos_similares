@@ -1,0 +1,10 @@
+global-exclude *.*
+
+include LICENSE
+include README.rst
+include setup.py
+graft oscarapi
+prune oscarapi/tests/
+prune oscarapi/fixtures/
+include oscarapi/tests/__init__.py
+include oscarapi/tests/utils.py
