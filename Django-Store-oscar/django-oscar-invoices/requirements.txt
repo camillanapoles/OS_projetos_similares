@@ -1,0 +1,14 @@
+# Testing
+pytest>=3.6.0
+pytest-django
+django-webtest==1.9.9
+sorl-thumbnail
+psycopg2-binary>=2.7
+sorl-thumbnail
+coverage
+mock==4.0.3
+factory-boy==3.2.1
+
+# Development
+flake8
+isort
